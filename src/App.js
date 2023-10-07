@@ -4,11 +4,16 @@ import './App.css';
 import Header from './components/Header'
 
 function App() {
+
+  const imgStyle = {
+    height: "128px",
+    width : "128px"
+  }
   return (
-    <div className="App">
+    <>
+    <img src={logo} style={imgStyle} ></img>
     <Header/>
-     
-    </div>
+    </>
   );
 }
 
